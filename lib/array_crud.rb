@@ -24,15 +24,16 @@ end
 
 def remove_element_from_start_of_array(array)
   array.shift()
-  return array
 end
 
 def retrieve_element_from_index(array, index_number)
-  return array[index_number]
+  return_element = array[index_number]
+  return return_element
 end
 
 def retrieve_first_element_from_array(array)
-  
+  return_element = array[0]
+  return return_element
 end
 
 def retrieve_last_element_from_array(array)
